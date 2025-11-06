@@ -8,9 +8,9 @@ public class Main {
 
         System.out.println("¡Hola mundo desde GitHub Codespaces! 👋");
 
-        while (numero != 5) {
-            System.out.println("ingresa una numero: ");
-         numero = sc.nextInt();
+        while (numero != 3) {
+            System.out.println("Ingresa un número (escribe 3 para salir): ");
+            numero = sc.nextInt();
         }
 
         sc.close();
